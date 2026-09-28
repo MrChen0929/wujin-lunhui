@@ -1,0 +1,475 @@
+{
+    "action": [
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "c294a421504911ee861f30d042e90e85"
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "dX", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "dY", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [
+                0, 
+                1
+            ], 
+            "element_id": 1027317831000122, 
+            "enable": true
+        }, 
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "dX", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "dY", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "1ce1ba6e4e1111eeac3630d042e90e85"
+                }, 
+                {
+                    "arg_type": 100225, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "ANGLE", 
+                                "dAngle", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [
+                0
+            ], 
+            "element_id": 1027317831000138, 
+            "enable": true
+        }, 
+        {
+            "action_type": "START_GHOST", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1027317831000008, 
+            "enable": true, 
+            "op_arg": [
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                255.0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "RANDOM_FLOAT"
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                255.0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "RANDOM_FLOAT"
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                255.0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "RANDOM_FLOAT"
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        125.0
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        0.06
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        0.0
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        0.0
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        1.0
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "op_arg_enable": [
+                true, 
+                true, 
+                true, 
+                true, 
+                true, 
+                true, 
+                true, 
+                true, 
+                false
+            ]
+        }, 
+        {
+            "action_type": "CREATE_STRAIGHT_MOVER", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100225, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "ANGLE", 
+                                "dAngle", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        800.0
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        2000.0
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        0.0
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "STOP_GHOST", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1027317831000231, 
+                            "enable": true, 
+                            "op_arg": [
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        false
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg_enable": [
+                                false
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1027317831000171, 
+            "enable": true, 
+            "fake_op": [], 
+            "local_var": {
+                "__tuple__": true, 
+                "items": [
+                    {}, 
+                    {}
+                ]
+            }, 
+            "op_arg": [
+                null, 
+                null, 
+                null, 
+                null, 
+                null, 
+                null, 
+                null, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                null, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                null, 
+                null, 
+                null, 
+                null, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "op_arg_enable": [
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false
+            ]
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 200220, 
+                    "args_list": [
+                        57
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1027317831000002, 
+            "enable": true, 
+            "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+        }
+    ], 
+    "group_id": 0, 
+    "p_trigger_id": null, 
+    "trigger_id": 1027317831, 
+    "trigger_name": "瞬移残影", 
+    "valid": true, 
+    "var_data": [
+        {
+            "ANGLE": {
+                "dAngle": 0.0
+            }, 
+            "INTEGER": {
+                "dX": 0, 
+                "dY": 0
+            }, 
+            "NEW_TIMER": {}
+        }, 
+        {
+            "dAngle": 0, 
+            "dX": 0, 
+            "dY": 0
+        }, 
+        [
+            "dX", 
+            "dY", 
+            "dAngle"
+        ]
+    ]
+}

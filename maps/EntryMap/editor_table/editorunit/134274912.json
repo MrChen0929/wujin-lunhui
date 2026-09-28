@@ -130,6 +130,7 @@
     "heal_effect_grow": 0.0, 
     "healing_effect": 0.0, 
     "healing_effect_grow": 0.0, 
+    "height_fog": true, 
     "height_offset": 0, 
     "hero_ability_list": {
         "__tuple__": true, 

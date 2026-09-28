@@ -42,7 +42,7 @@
                         {
                             "arg_type": 100002, 
                             "args_list": [
-                                100
+                                10
                             ], 
                             "sub_type": 1
                         }
@@ -51,49 +51,70 @@
                 }
             ], 
             "bp": false, 
-            "element_id": 558395473000033, 
+            "element_id": 477147208000039, 
             "enable": true
         }
     ], 
     "call_enabled": true, 
-    "condition": [], 
-    "enabled": true, 
-    "event": [], 
-    "func_category": "t_function", 
-    "func_comment": "", 
-    "func_des": "获得{增加数}经验", 
-    "func_id": "c767e3b040ca11ee9f1930d042e90e85", 
-    "func_name": "幸存者_获得经验", 
-    "func_param_list": [
+    "condition": [
         {
-            "__tuple__": true, 
-            "items": [
-                "增加数", 
-                true
-            ]
+            "args_list": [
+                {
+                    "arg_type": 100116, 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "GET_UNIT_FROM_EVENT"
+                        }
+                    ], 
+                    "sub_type": "GET_UNIT_KEY_OF_UNIT"
+                }, 
+                {
+                    "arg_type": 100035, 
+                    "args_list": [
+                        "=="
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100116, 
+                    "args_list": [
+                        134237881
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "condition_type": "UNIT_CLASS_COMPARE", 
+            "element_id": 477147208000015, 
+            "enable": true
         }
     ], 
-    "group_id": "qARuKLDtEfG-gdEHF-t3ez", 
-    "is_func": true, 
-    "is_official_func": false, 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100008, 
+                    "args_list": [
+                        "ET_UNIT_DIE"
+                    ], 
+                    "sub_type": "GENERIC_UNIT_EVENT"
+                }
+            ], 
+            "element_id": 477147208000010, 
+            "enable": true, 
+            "event_type": "GENERIC_UNIT_EVENT"
+        }
+    ], 
+    "group_id": "Rb8RxLrvEfGR1Ye1tgMHK3", 
     "p_trigger_id": null, 
-    "trigger_id": 558395473, 
-    "trigger_name": "幸存者_获得经验", 
+    "trigger_id": 477147208, 
+    "trigger_name": "经验获取", 
     "valid": true, 
     "var_data": [
-        {
-            "INTEGER": {
-                "exp": 0, 
-                "增加数": 0
-            }
-        }, 
-        {
-            "exp": 0, 
-            "增加数": 0
-        }, 
-        [
-            "exp", 
-            "增加数"
-        ]
+        {}, 
+        {}, 
+        []
     ]
 }

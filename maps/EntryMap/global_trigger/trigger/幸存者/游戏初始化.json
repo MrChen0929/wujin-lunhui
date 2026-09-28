@@ -1,6 +1,34 @@
 {
     "action": [
         {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_ENTITY", 
+                                "幸存者"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1966571575000045, 
+            "enable": true
+        }, 
+        {
             "action_type": "SELECT_UNIT", 
             "args_list": [
                 {

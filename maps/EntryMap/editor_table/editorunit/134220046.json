@@ -15,7 +15,7 @@
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
     "attack_mag_grow": 0.0, 
-    "attack_phy": 80.0, 
+    "attack_phy": 8000.0, 
     "attack_phy_grow": 5.0, 
     "attack_range": 2.8, 
     "attack_range_grow": 0, 
@@ -150,7 +150,7 @@
     }, 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
-    "hp_max": 1000.0, 
+    "hp_max": 9999.0, 
     "hp_max_grow": 100.0, 
     "hp_rec": 10, 
     "hp_rec_grow": 1, 
@@ -233,7 +233,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 1000.0, 
+    "preview_billboard_health_value": 9999.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": 0, 
     "rescue_seeker_distance": 3, 
@@ -324,7 +324,7 @@
         "filter_item_tags": [], 
         "filter_unit_tags": [], 
         "hit_effect": {
-            "effect": 105302, 
+            "effect": 102647, 
             "follow_scale": true, 
             "scale": 1.0, 
             "socket": "origin"

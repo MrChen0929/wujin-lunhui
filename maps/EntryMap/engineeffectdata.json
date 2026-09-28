@@ -5,7 +5,7 @@
         "bloom_strength": 0.8
     }, 
     "color_grading": {
-        "color_grading_type": 10, 
+        "color_grading_type": 5, 
         "total_control": 1.0
     }, 
     "env_time_of_day": {
@@ -14,10 +14,10 @@
         "keyframes": null, 
         "prop_names": null, 
         "prop_widths": null, 
-        "time_of_day_template": 300004
+        "time_of_day_template": 300002
     }, 
     "fog": {
-        "height_fog": false, 
+        "height_fog": true, 
         "height_fog_color": {
             "__tuple__": true, 
             "items": [
@@ -87,7 +87,7 @@
                 "PixelIntensity": 2.0
             }, 
             "4": {
-                "DepthScale": 2.5, 
+                "DepthScale": 1.32, 
                 "LineColor": {
                     "__tuple__": true, 
                     "items": [
@@ -96,10 +96,10 @@
                         0.05
                     ]
                 }, 
-                "TotalControl": 0.9
+                "TotalControl": 2.95
             }
         }, 
-        "post_style_type": 0
+        "post_style_type": 4
     }, 
     "shadow_quality": {
         "dynamic_shadow_cascades": 2, 

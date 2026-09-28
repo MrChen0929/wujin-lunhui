@@ -1,5 +1,5 @@
 {
-    "New trigger.json": 0,
-    "UI.folder": 2,
-    "\u5e78\u5b58\u8005.folder": 2
+    "New trigger.json": 0, 
+    "UI.folder": 2, 
+    "幸存者.folder": 1
 }

@@ -1,6 +1,29 @@
 {
-    "archive_drop_config": {}, 
-    "archive_slots": {}, 
+    "archive_drop_config": {
+        "1": {
+            "daily_limit": 999, 
+            "drop_count": 1, 
+            "drop_name": "1", 
+            "drop_pool_config": [], 
+            "trigger_interval": 0
+        }
+    }, 
+    "archive_slots": {
+        "1": {
+            "billboard_max_item_num": 100, 
+            "billboard_sort_type": 0, 
+            "desc": "\u73a9\u5bb6\u7b49\u7ea7\u7ecf\u9a8c", 
+            "encrypt": true, 
+            "game_mode_limit": 0, 
+            "key": 1, 
+            "max_value_limit_type": 0, 
+            "name": "\u7b49\u7ea7", 
+            "time_interval_limit": [], 
+            "type": 2, 
+            "value": 1, 
+            "week_date_limit": []
+        }
+    }, 
     "multi_keys_limit_config": {}, 
     "open_archive_key": 0
 }

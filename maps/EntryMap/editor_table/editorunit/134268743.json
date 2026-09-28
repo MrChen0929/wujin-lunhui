@@ -15,7 +15,7 @@
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
     "attack_mag_grow": 0.0, 
-    "attack_phy": 150.0, 
+    "attack_phy": 15000.0, 
     "attack_phy_grow": 0.0, 
     "attack_range": 1.0, 
     "attack_range_grow": 0, 
@@ -307,7 +307,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 300.0, 
+    "preview_billboard_health_value": 500.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": false, 
     "rescue_seeker_distance": 3, 

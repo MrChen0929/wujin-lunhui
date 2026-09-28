@@ -65,7 +65,9 @@
     }, 
     "ability_stage_config": {
         "__tuple__": true, 
-        "items": []
+        "items": [
+            1
+        ]
     }, 
     "ability_timeline_resource": {
         "model_id": 0
@@ -180,6 +182,7 @@
     "is_meele": false, 
     "key": 134265579, 
     "kv": {}, 
+    "level": 1, 
     "magicbook_list": {
         "__tuple__": true, 
         "items": []
@@ -220,6 +223,7 @@
             ]
         }
     }, 
+    "reward_official_res_1": 10.0, 
     "sector_angle": {
         "__tuple__": true, 
         "items": [

@@ -1,4 +1,6 @@
 {
+    "6CNyU7tFEfGr0JGJmpbCJT": 0.0, 
+    "6CNyU7tFEfGr0JGJmpbCJT_grow": 0.0, 
     "_custom_": true, 
     "_ref_": 134218577, 
     "affect_techs": {
@@ -384,7 +386,6 @@
     "speed_ratio_in_turn": 0.6, 
     "standard_walk_rate": 36.0, 
     "start_rft": 1.0, 
-    "state_init": "", 
     "state_list": [], 
     "strength": 0.0, 
     "strength_grow": 0.0, 

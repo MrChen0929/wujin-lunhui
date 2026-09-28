@@ -274,6 +274,34 @@
             "bp": false, 
             "element_id": 1966571575000123, 
             "enable": true
+        }, 
+        {
+            "action_type": "SET_UNIT_LEVEL", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "幸存者_等级"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1966571575000142, 
+            "enable": true
         }
     ], 
     "call_enabled": true, 

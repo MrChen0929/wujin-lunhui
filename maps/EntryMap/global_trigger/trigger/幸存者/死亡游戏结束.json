@@ -1,0 +1,90 @@
+{
+    "action": [
+        {
+            "action_type": "END_GAME_FOR_ROLE_2", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100047, 
+                    "args_list": [
+                        "defeat"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "c0d8021a-a41c-4aad-a516-ecdf03e74cb9"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        0
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 842248262000010, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100007, 
+                    "args_list": [
+                        "ET_UNIT_DIE"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 842248262000002, 
+            "enable": true, 
+            "event_type": "SPECIAL_UNIT_EVENT"
+        }
+    ], 
+    "group_id": "xZgMTrgGEfGOUMlld5xaPZ", 
+    "p_trigger_id": null, 
+    "trigger_id": 842248262, 
+    "trigger_name": "死亡游戏结束", 
+    "valid": true, 
+    "var_data": [
+        {}, 
+        {}, 
+        []
+    ]
+}

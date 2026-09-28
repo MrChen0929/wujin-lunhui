@@ -1,0 +1,43 @@
+{
+ "f": [
+  {
+   "__tuple__": true, 
+   "items": [
+    "", 
+    0, 
+    2147483645, 
+    "code_explorer_collection_root_folder_name"
+   ]
+  }
+ ], 
+ "d": {
+  "3012": {
+   "__tuple__": true, 
+   "items": [
+    2147483645, 
+    0
+   ]
+  }, 
+  "3017": {
+   "__tuple__": true, 
+   "items": [
+    2147483645, 
+    1
+   ]
+  }, 
+  "101215": {
+   "__tuple__": true, 
+   "items": [
+    2147483645, 
+    2
+   ]
+  }, 
+  "101472": {
+   "__tuple__": true, 
+   "items": [
+    2147483645, 
+    3
+   ]
+  }
+ }
+}

@@ -1,0 +1,134 @@
+{
+    "action": [
+        {
+            "action_type": "CALL_TRIGGER_FUNC",
+            "args_list": [
+                {
+                    "arg_type": 100177,
+                    "args_list": [
+                        {
+                            "arg_type": 100002,
+                            "args_list": [
+                                10
+                            ],
+                            "sub_type": 1
+                        }
+                    ],
+                    "op_arg": [],
+                    "op_arg_enable": [],
+                    "sub_type": "c767e3b040ca11ee9f1930d042e90e85"
+                }
+            ],
+            "bp": false,
+            "call_rt_arg_idxes": [],
+            "element_id": 19665715770002,
+            "enable": true
+        }
+    ],
+    "call_enabled": true,
+    "condition": [
+        {
+            "args_list": [
+                {
+                    "args_list": [
+                        {
+                            "args_list": [
+                                {
+                                    "arg_type": 100010,
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006,
+                                            "args_list": [],
+                                            "sub_type": "GET_UNIT_FROM_EVENT"
+                                        }
+                                    ],
+                                    "sub_type": "GET_UNIT_TYPE"
+                                },
+                                {
+                                    "arg_type": 100035,
+                                    "args_list": [
+                                        "=="
+                                    ],
+                                    "sub_type": 1
+                                },
+                                {
+                                    "arg_type": 100010,
+                                    "args_list": [
+                                        134240183
+                                    ],
+                                    "sub_type": 1
+                                }
+                            ],
+                            "condition_type": "UNIT_TYPE_COMPARE",
+                            "element_id": 19665715770003,
+                            "enable": true
+                        },
+                        {
+                            "args_list": [
+                                {
+                                    "arg_type": 100010,
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006,
+                                            "args_list": [],
+                                            "sub_type": "GET_UNIT_FROM_EVENT"
+                                        }
+                                    ],
+                                    "sub_type": "GET_UNIT_TYPE"
+                                },
+                                {
+                                    "arg_type": 100035,
+                                    "args_list": [
+                                        "=="
+                                    ],
+                                    "sub_type": 1
+                                },
+                                {
+                                    "arg_type": 100010,
+                                    "args_list": [
+                                        134237881
+                                    ],
+                                    "sub_type": 1
+                                }
+                            ],
+                            "condition_type": "UNIT_TYPE_COMPARE",
+                            "element_id": 19665715770004,
+                            "enable": true
+                        }
+                    ],
+                    "condition_type": "OR",
+                    "element_id": 19665715770005,
+                    "enable": true
+                }
+            ],
+            "sub_type": 1
+        }
+    ],
+    "enabled": true,
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 100008,
+                    "args_list": [
+                        "ET_UNIT_DIE"
+                    ],
+                    "sub_type": "GENERIC_UNIT_EVENT"
+                }
+            ],
+            "element_id": 19665715770001,
+            "enable": true,
+            "event_type": "GENERIC_UNIT_EVENT"
+        }
+    ],
+    "group_id": "xZgMTrgGEfGOUMlld5xaPZ",
+    "p_trigger_id": null,
+    "trigger_id": 1966571577,
+    "trigger_name": "\u91ce\u602a\u6b7b\u4ea1\u52a0\u7ecf\u9a8c",
+    "valid": true,
+    "var_data": [
+        {},
+        {},
+        []
+    ]
+}

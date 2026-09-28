@@ -1,0 +1,114 @@
+{
+    "ui/00e4ba5c-44e8-4e29-92bc-2e30b7ae4beb": {
+        "default_editor_id": 134253051, 
+        "describe": "", 
+        "key": "ui/00e4ba5c-44e8-4e29-92bc-2e30b7ae4beb", 
+        "name": "bg_roles_3", 
+        "path": "ui/00e4ba5c-44e8-4e29-92bc-2e30b7ae4beb", 
+        "uid": "res_icon_ui/00e4ba5c-44e8-4e29-92bc-2e30b7ae4beb"
+    }, 
+    "ui/25397a38-ae5b-4250-a6c6-994f65225fa4": {
+        "default_editor_id": 134264913, 
+        "describe": "", 
+        "key": "ui/25397a38-ae5b-4250-a6c6-994f65225fa4", 
+        "name": "img_fast", 
+        "path": "ui/25397a38-ae5b-4250-a6c6-994f65225fa4", 
+        "uid": "res_icon_ui/25397a38-ae5b-4250-a6c6-994f65225fa4"
+    }, 
+    "ui/3315849e-4242-4b29-8ff9-22a275e5ecbc": {
+        "default_editor_id": 134251492, 
+        "describe": "", 
+        "key": "ui/3315849e-4242-4b29-8ff9-22a275e5ecbc", 
+        "name": "icon_1_small", 
+        "path": "ui/3315849e-4242-4b29-8ff9-22a275e5ecbc", 
+        "uid": "res_icon_ui/3315849e-4242-4b29-8ff9-22a275e5ecbc"
+    }, 
+    "ui/3a08c354-6609-42ba-99b8-73fb4dae67b2": {
+        "default_editor_id": 134259519, 
+        "describe": "", 
+        "key": "ui/3a08c354-6609-42ba-99b8-73fb4dae67b2", 
+        "name": "highlight", 
+        "path": "ui/3a08c354-6609-42ba-99b8-73fb4dae67b2", 
+        "uid": "res_icon_ui/3a08c354-6609-42ba-99b8-73fb4dae67b2"
+    }, 
+    "ui/3aa6dca1-53ea-4a42-ac2f-9fa962c8d8d7": {
+        "default_editor_id": 134267469, 
+        "describe": "", 
+        "key": "ui/3aa6dca1-53ea-4a42-ac2f-9fa962c8d8d7", 
+        "name": "img_roles_blood_bottom", 
+        "path": "ui/3aa6dca1-53ea-4a42-ac2f-9fa962c8d8d7", 
+        "uid": "res_icon_ui/3aa6dca1-53ea-4a42-ac2f-9fa962c8d8d7"
+    }, 
+    "ui/481b547a-64c5-4c76-9526-beea4dabf1ec": {
+        "default_editor_id": 134264555, 
+        "describe": "", 
+        "key": "ui/481b547a-64c5-4c76-9526-beea4dabf1ec", 
+        "name": "img_attack", 
+        "path": "ui/481b547a-64c5-4c76-9526-beea4dabf1ec", 
+        "uid": "res_icon_ui/481b547a-64c5-4c76-9526-beea4dabf1ec"
+    }, 
+    "ui/51b860c9-a483-4fdc-a864-c8b9e87bbb7d": {
+        "default_editor_id": 134230080, 
+        "describe": "", 
+        "key": "ui/51b860c9-a483-4fdc-a864-c8b9e87bbb7d", 
+        "name": "img_3", 
+        "path": "ui/51b860c9-a483-4fdc-a864-c8b9e87bbb7d", 
+        "uid": "res_icon_ui/51b860c9-a483-4fdc-a864-c8b9e87bbb7d"
+    }, 
+    "ui/5efcc929-ce43-4b3e-a344-019d8cf43254": {
+        "default_editor_id": 134273368, 
+        "describe": "", 
+        "key": "ui/5efcc929-ce43-4b3e-a344-019d8cf43254", 
+        "name": "img_4", 
+        "path": "ui/5efcc929-ce43-4b3e-a344-019d8cf43254", 
+        "uid": "res_icon_ui/5efcc929-ce43-4b3e-a344-019d8cf43254"
+    }, 
+    "ui/67feeb64-6c8c-48db-a23f-64b8de05e6d2": {
+        "default_editor_id": 134246948, 
+        "describe": "", 
+        "key": "ui/67feeb64-6c8c-48db-a23f-64b8de05e6d2", 
+        "name": "img_roles_blood_2", 
+        "path": "ui/67feeb64-6c8c-48db-a23f-64b8de05e6d2", 
+        "uid": "res_icon_ui/67feeb64-6c8c-48db-a23f-64b8de05e6d2"
+    }, 
+    "ui/771bc1ee-0079-4883-a939-29a1876167c4": {
+        "default_editor_id": 134220016, 
+        "describe": "", 
+        "key": "ui/771bc1ee-0079-4883-a939-29a1876167c4", 
+        "name": "tips_bg", 
+        "path": "ui/771bc1ee-0079-4883-a939-29a1876167c4", 
+        "uid": "res_icon_ui/771bc1ee-0079-4883-a939-29a1876167c4"
+    }, 
+    "ui/a0674c9f-3631-4f77-88a7-197176d67e20": {
+        "default_editor_id": 134227838, 
+        "describe": "", 
+        "key": "ui/a0674c9f-3631-4f77-88a7-197176d67e20", 
+        "name": "img_defense", 
+        "path": "ui/a0674c9f-3631-4f77-88a7-197176d67e20", 
+        "uid": "res_icon_ui/a0674c9f-3631-4f77-88a7-197176d67e20"
+    }, 
+    "ui/af2a7822-65f1-4004-976f-9114ab153266": {
+        "default_editor_id": 134276172, 
+        "describe": "", 
+        "key": "ui/af2a7822-65f1-4004-976f-9114ab153266", 
+        "name": "img_attack_speed", 
+        "path": "ui/af2a7822-65f1-4004-976f-9114ab153266", 
+        "uid": "res_icon_ui/af2a7822-65f1-4004-976f-9114ab153266"
+    }, 
+    "ui/cc31e4b9-d585-4255-9490-cb1a6b764fa3": {
+        "default_editor_id": 134239935, 
+        "describe": "", 
+        "key": "ui/cc31e4b9-d585-4255-9490-cb1a6b764fa3", 
+        "name": "img_roles_blood_1", 
+        "path": "ui/cc31e4b9-d585-4255-9490-cb1a6b764fa3", 
+        "uid": "res_icon_ui/cc31e4b9-d585-4255-9490-cb1a6b764fa3"
+    }, 
+    "ui/eb98c060-6e9f-4325-890f-823220ad5020": {
+        "default_editor_id": 134275447, 
+        "describe": "", 
+        "key": "ui/eb98c060-6e9f-4325-890f-823220ad5020", 
+        "name": "bg_black", 
+        "path": "ui/eb98c060-6e9f-4325-890f-823220ad5020", 
+        "uid": "res_icon_ui/eb98c060-6e9f-4325-890f-823220ad5020"
+    }
+}

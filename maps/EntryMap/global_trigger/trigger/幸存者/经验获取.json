@@ -169,57 +169,119 @@
                             "enable": true
                         }, 
                         {
-                            "action_type": "CREATE_UNIT_NEW", 
+                            "action_type": "IF_THEN_ELSE", 
                             "args_list": [
                                 {
-                                    "arg_type": 100116, 
+                                    "arg_type": 100021, 
                                     "args_list": [
-                                        134268743
+                                        {
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100001, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "BOOLEAN", 
+                                                                "Boss_开关"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": "VARIABLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100035, 
+                                                    "args_list": [
+                                                        "=="
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100001, 
+                                                    "args_list": [
+                                                        true
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "condition_type": "BOOL_COMPARE", 
+                                            "element_id": 477147208000212, 
+                                            "enable": false
+                                        }
                                     ], 
                                     "sub_type": 1
                                 }, 
                                 {
-                                    "arg_type": 100004, 
+                                    "arg_type": 100022, 
                                     "args_list": [
                                         {
-                                            "arg_type": 100006, 
+                                            "action_type": "CREATE_UNIT_NEW", 
                                             "args_list": [
-                                                1
+                                                {
+                                                    "arg_type": 100116, 
+                                                    "args_list": [
+                                                        134268743
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100004, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100006, 
+                                                            "args_list": [
+                                                                1
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "UNIT_ENTITY_POINT"
+                                                }, 
+                                                {
+                                                    "arg_type": 100225, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                180.0
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_ANGLE_BY_FLOAT"
+                                                }, 
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [
+                                                        31
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
                                             ], 
-                                            "sub_type": 1
+                                            "bp": false, 
+                                            "element_id": 477147208000114, 
+                                            "enable": true, 
+                                            "op_arg": [
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false
+                                            ]
                                         }
                                     ], 
-                                    "sub_type": "UNIT_ENTITY_POINT"
+                                    "sub_type": 1
                                 }, 
                                 {
-                                    "arg_type": 100225, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100000, 
-                                            "args_list": [
-                                                180.0
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "sub_type": "GET_ANGLE_BY_FLOAT"
-                                }, 
-                                {
-                                    "arg_type": 100025, 
-                                    "args_list": [
-                                        31
-                                    ], 
+                                    "arg_type": 100022, 
+                                    "args_list": [], 
                                     "sub_type": 1
                                 }
                             ], 
                             "bp": false, 
-                            "element_id": 477147208000114, 
+                            "element_id": 477147208000203, 
                             "enable": true, 
-                            "op_arg": [
-                                null
-                            ], 
-                            "op_arg_enable": [
-                                false
+                            "fake_op": [
+                                2
                             ]
                         }
                     ], 
@@ -346,6 +408,40 @@
             ], 
             "condition_type": "FLOAT_COMPARE", 
             "element_id": 477147208000177, 
+            "enable": true
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "BOOLEAN", 
+                                "Boss_开关"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100035, 
+                    "args_list": [
+                        "=="
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "condition_type": "BOOL_COMPARE", 
+            "element_id": 477147208000226, 
             "enable": true
         }
     ], 

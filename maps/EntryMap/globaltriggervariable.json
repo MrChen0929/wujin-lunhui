@@ -1,5 +1,8 @@
 {
     "variable_dict": {
+        "BOOLEAN": {
+            "Boss_\u5f00\u5173": true
+        }, 
         "INTEGER": {
             "GLOBAL_BAG_MAX_NUM": 0, 
             "WASD_\u7f13\u5b58\u8f93\u5165": 0, 
@@ -72,9 +75,17 @@
                 "\u5e78\u5b58\u8005_\u7b49\u7ea7", 
                 "\u5e78\u5b58\u8005_\u7b49\u7ea7"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "Boss_\u5f00\u5173", 
+                "Boss_\u5f00\u5173"
+            ]
         }
     ], 
     "variable_length_dict": {
+        "Boss_\u5f00\u5173": 0, 
         "GLOBAL_BAG_MAX_NUM": 0, 
         "UI_Manager": 0, 
         "WASD_\u7f13\u5b58\u8f93\u5165": 0, 

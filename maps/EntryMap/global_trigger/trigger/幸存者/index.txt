@@ -1,6 +1,7 @@
 {
-    "Boss死亡.json": 4, 
-    "死亡游戏结束.json": 1, 
+    "Boss死亡.json": 5, 
+    "手动刷Boss.json": 4, 
+    "死亡复活.json": 1, 
     "游戏初始化.json": 0, 
     "瞬移残影.json": 2, 
     "经验获取.json": 3

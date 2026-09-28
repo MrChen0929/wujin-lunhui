@@ -145,6 +145,34 @@
                     {}
                 ]
             }
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "BOOLEAN", 
+                                "Boss_开关"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 842248262000092, 
+            "enable": true
         }
     ], 
     "call_enabled": true, 
@@ -176,7 +204,7 @@
     "group_id": "xZgMTrgGEfGOUMlld5xaPZ", 
     "p_trigger_id": null, 
     "trigger_id": 842248262, 
-    "trigger_name": "死亡游戏结束", 
+    "trigger_name": "死亡复活", 
     "valid": true, 
     "var_data": [
         {}, 

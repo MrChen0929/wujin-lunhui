@@ -6,6 +6,7 @@
         "INTEGER": {
             "GLOBAL_BAG_MAX_NUM": 0, 
             "WASD_\u7f13\u5b58\u8f93\u5165": 0, 
+            "\u5e78\u5b58\u8005_Boss\u8ba1\u65f6": 0, 
             "\u5e78\u5b58\u8005_\u5237\u602a\u5f00\u5173": 1, 
             "\u5e78\u5b58\u8005_\u7b49\u7ea7": 1, 
             "\u5e78\u5b58\u8005_\u7ecf\u9a8c": 0
@@ -91,6 +92,13 @@
                 "\u5e78\u5b58\u8005_Boss\u8ba1\u65f6\u5668", 
                 "\u5e78\u5b58\u8005_Boss\u8ba1\u65f6\u5668"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u5e78\u5b58\u8005_Boss\u8ba1\u65f6", 
+                "\u5e78\u5b58\u8005_Boss\u8ba1\u65f6"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -99,6 +107,7 @@
         "UI_Manager": 0, 
         "WASD_\u7f13\u5b58\u8f93\u5165": 0, 
         "\u5e78\u5b58\u8005": 0, 
+        "\u5e78\u5b58\u8005_Boss\u8ba1\u65f6": 0, 
         "\u5e78\u5b58\u8005_Boss\u8ba1\u65f6\u5668": 0, 
         "\u5e78\u5b58\u8005_\u5237\u602a\u5f00\u5173": 0, 
         "\u5e78\u5b58\u8005_\u7b49\u7ea7": 0, 

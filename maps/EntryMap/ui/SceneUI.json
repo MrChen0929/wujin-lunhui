@@ -2,7 +2,79 @@
     "adapt_mode": 2, 
     "anim_data": {}, 
     "auto_create": true, 
-    "children": [], 
+    "children": [
+        {
+            "adapter_option": [
+                false, 
+                false, 
+                false, 
+                false, 
+                93.9996, 
+                886.0004, 
+                1514.0, 
+                26.0
+            ], 
+            "can_drag": true, 
+            "children": [], 
+            "clip_enabled": true, 
+            "color": {
+                "__tuple__": true, 
+                "items": [
+                    219, 
+                    12, 
+                    12, 
+                    0
+                ]
+            }, 
+            "event_list": [
+                {
+                    "action_list": [
+                        {
+                            "anim_duration": 1.0, 
+                            "anim_id": null, 
+                            "anim_type": 0, 
+                            "comp": "50852058-4bc4-4c7c-bd07-1b21f06e6ff6", 
+                            "ease_type": 0, 
+                            "name": "Show_3", 
+                            "open_timeline": true, 
+                            "type": 2
+                        }
+                    ], 
+                    "enabled": true, 
+                    "name": "Boss \u5012\u8ba1\u65f6_0", 
+                    "not_wait_network": false, 
+                    "sound_id": null, 
+                    "time": 0.05, 
+                    "type": 23
+                }
+            ], 
+            "language_key": "50852058-4bc4-4c7c-bd07-1b21f06e6ff6", 
+            "name": "Boss \u5012\u8ba1\u65f6", 
+            "open_adapter": true, 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    1704.0, 
+                    936.0004, 
+                    88.75, 
+                    86.6667, 
+                    0, 
+                    0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    380.0, 
+                    100.0
+                ]
+            }, 
+            "type": 7, 
+            "uid": "50852058-4bc4-4c7c-bd07-1b21f06e6ff6"
+        }
+    ], 
     "name": "SceneUI", 
     "opacity": 1.0, 
     "script_name": "", 

@@ -131,6 +131,27 @@
             "enable": true
         }, 
         {
+            "action_type": "DELETE_TIMER", 
+            "args_list": [
+                {
+                    "arg_type": 100181, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "NEW_TIMER", 
+                                "幸存者_Boss计时器"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 842248262000165, 
+            "enable": true
+        }, 
+        {
             "action_type": "SET_VARIABLE", 
             "args_list": [
                 {

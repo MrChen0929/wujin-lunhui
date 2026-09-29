@@ -1,6 +1,27 @@
 {
     "action": [
         {
+            "action_type": "DELETE_TIMER", 
+            "args_list": [
+                {
+                    "arg_type": 100181, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "NEW_TIMER", 
+                                "幸存者_Boss计时器"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1930109001000341, 
+            "enable": true
+        }, 
+        {
             "action_type": "SET_VARIABLE", 
             "args_list": [
                 {
@@ -212,7 +233,7 @@
                 {
                     "arg_type": 100300, 
                     "args_list": [
-                        "ATTR_BASE"
+                        "ATTR_BASE_RATIO"
                     ], 
                     "sub_type": 1
                 }, 
@@ -248,7 +269,7 @@
                 {
                     "arg_type": 100300, 
                     "args_list": [
-                        "ATTR_BASE"
+                        "ATTR_BASE_RATIO"
                     ], 
                     "sub_type": 1
                 }, 
@@ -301,7 +322,7 @@
                                 {
                                     "arg_type": 100300, 
                                     "args_list": [
-                                        "ATTR_BASE"
+                                        "ATTR_BASE_RATIO"
                                     ], 
                                     "sub_type": 1
                                 }, 
@@ -335,7 +356,7 @@
                                 {
                                     "arg_type": 100300, 
                                     "args_list": [
-                                        "ATTR_BASE"
+                                        "ATTR_BASE_RATIO"
                                     ], 
                                     "sub_type": 1
                                 }, 
@@ -369,7 +390,7 @@
                                 {
                                     "arg_type": 100300, 
                                     "args_list": [
-                                        "ATTR_BASE"
+                                        "ATTR_BASE_RATIO"
                                     ], 
                                     "sub_type": 1
                                 }, 
@@ -403,7 +424,7 @@
                                 {
                                     "arg_type": 100300, 
                                     "args_list": [
-                                        "ATTR_BASE"
+                                        "ATTR_BASE_RATIO"
                                     ], 
                                     "sub_type": 1
                                 }, 
@@ -437,7 +458,7 @@
                                 {
                                     "arg_type": 100300, 
                                     "args_list": [
-                                        "ATTR_BASE"
+                                        "ATTR_BASE_RATIO"
                                     ], 
                                     "sub_type": 1
                                 }, 
@@ -471,7 +492,7 @@
                                 {
                                     "arg_type": 100300, 
                                     "args_list": [
-                                        "ATTR_BASE"
+                                        "ATTR_BASE_RATIO"
                                     ], 
                                     "sub_type": 1
                                 }, 

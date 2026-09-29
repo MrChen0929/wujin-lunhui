@@ -7,6 +7,22 @@
         "path": "ui/00e4ba5c-44e8-4e29-92bc-2e30b7ae4beb", 
         "uid": "res_icon_ui/00e4ba5c-44e8-4e29-92bc-2e30b7ae4beb"
     }, 
+    "ui/134251255": {
+        "default_editor_id": 134251255, 
+        "describe": "", 
+        "key": "ui/134251255", 
+        "name": "\u6e38\u620f\u542f\u52a8\u52a0\u8f7d\u56fe", 
+        "path": "ui/134251255", 
+        "uid": "res_icon_ui/134251255"
+    }, 
+    "ui/134271360": {
+        "default_editor_id": 134271360, 
+        "describe": "", 
+        "key": "ui/134271360", 
+        "name": "\u53bb\u6c34\u5370_1790663680168", 
+        "path": "ui/134271360", 
+        "uid": "res_icon_ui/134271360"
+    }, 
     "ui/25397a38-ae5b-4250-a6c6-994f65225fa4": {
         "default_editor_id": 134264913, 
         "describe": "", 

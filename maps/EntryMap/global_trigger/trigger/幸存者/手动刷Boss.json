@@ -27,6 +27,169 @@
             "bp": false, 
             "element_id": 1377779786000014, 
             "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "幸存者_刷怪开关"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        0
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1377779786000020, 
+            "enable": true
+        }, 
+        {
+            "action_type": "PICK_UNIT_DO_ACTION", 
+            "args_list": [
+                {
+                    "arg_type": 100026, 
+                    "args_list": [
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                134237881
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "UNIT_TYPE_UNIT_GROUP"
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "DELETE_UNIT", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "FOR_EACH_SELECTED_UNIT"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 477147208000108, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 477147208000098, 
+            "enable": true
+        }, 
+        {
+            "action_type": "CREATE_UNIT_NEW", 
+            "args_list": [
+                {
+                    "arg_type": 100116, 
+                    "args_list": [
+                        134268743
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100004, 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "UNIT_ENTITY_POINT"
+                }, 
+                {
+                    "arg_type": 100225, 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                180.0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_ANGLE_BY_FLOAT"
+                }, 
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        31
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 477147208000114, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "SET_UI_COMP_LOADINGBAR_CURRENT_VALUE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "b49def45-49b7-4c74-8855-9dfdf3b9e82c"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "幸存者_经验"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1377779786000048, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
         }
     ], 
     "call_enabled": true, 
@@ -43,6 +206,74 @@
             ], 
             "condition_type": "IS_UNIT_ALIVE", 
             "element_id": 1377779786000009, 
+            "enable": true
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "幸存者_经验"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }, 
+                {
+                    "arg_type": 100015, 
+                    "args_list": [
+                        ">="
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        100
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "condition_type": "FLOAT_COMPARE", 
+            "element_id": 1377779786000083, 
+            "enable": true
+        }, 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "BOOLEAN", 
+                                "Boss_开关"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100035, 
+                    "args_list": [
+                        "=="
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "condition_type": "BOOL_COMPARE", 
+            "element_id": 1377779786000097, 
             "enable": true
         }
     ], 

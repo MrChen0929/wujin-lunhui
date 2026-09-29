@@ -12,7 +12,7 @@
         "1": {
             "billboard_max_item_num": 100, 
             "billboard_sort_type": 0, 
-            "desc": "\u73a9\u5bb6\u7b49\u7ea7\u7ecf\u9a8c", 
+            "desc": "\u73a9\u5bb6\u7b49\u7ea7", 
             "encrypt": true, 
             "game_mode_limit": 0, 
             "key": 1, 
@@ -21,6 +21,20 @@
             "time_interval_limit": [], 
             "type": 2, 
             "value": 1, 
+            "week_date_limit": []
+        }, 
+        "2": {
+            "billboard_max_item_num": 100, 
+            "billboard_sort_type": 0, 
+            "desc": "\u73a9\u5bb6\u7b49\u7ea7\u7ecf\u9a8c\u503c", 
+            "encrypt": true, 
+            "game_mode_limit": 0, 
+            "key": 2, 
+            "max_value_limit_type": 0, 
+            "name": "\u7ecf\u9a8c", 
+            "time_interval_limit": [], 
+            "type": 2, 
+            "value": 0, 
             "week_date_limit": []
         }
     }, 

@@ -1,5 +1,6 @@
 {
     "New trigger.json": 0, 
     "UI.folder": 2, 
-    "幸存者.folder": 1
+    "幸存者.folder": 1, 
+    "新建触发器.json": 3
 }

@@ -3,11 +3,11 @@
         "archive": {
             "1": {
                 "data_type": 2,
-                "data_value": 27
+                "data_value": 30
             },
             "2": {
                 "data_type": 2,
-                "data_value": 110
+                "data_value": 0
             }
         },
         "platform_prop": {},

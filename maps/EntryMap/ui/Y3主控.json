@@ -10076,6 +10076,73 @@
             "type": 7, 
             "uid": "f996b5a6-9af1-48c0-94f9-7d4e4336dfc0", 
             "visible": false
+        }, 
+        {
+            "children": [
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        520.0, 
+                        520.0, 
+                        810.0, 
+                        810.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "tips_text", 
+                    "over_pattern": 3, 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            150.0, 
+                            150.0, 
+                            50.0, 
+                            50.0, 
+                            1, 
+                            1
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            300.0, 
+                            40.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "4b5fdc31-fce2-47b0-8085-1db83236c505"
+                }
+            ], 
+            "event_list": [], 
+            "name": "tips_1", 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    974.9998, 
+                    904.8029, 
+                    50.7812, 
+                    83.778, 
+                    0, 
+                    0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "tips_text": "4b5fdc31-fce2-47b0-8085-1db83236c505", 
+            "type": 63, 
+            "uid": "3060d651-24b3-490e-b4bd-66fbbde574a4"
         }
     ], 
     "name": "Y3\u4e3b\u63a7", 
